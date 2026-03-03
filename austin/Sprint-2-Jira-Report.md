@@ -77,6 +77,6 @@ _Workflow tracked via Jira board and GitHub PRs._
 
 ## Jira Evidence Links
 
-- **Sprint report link:** https://uwp-se-career-fair.atlassian.net/jira/software/projects/SCRUM/boards/1
-- **Backlog link:** https://uwp-se-career-fair.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-67
-- **Board link:** https://uwp-se-career-fair.atlassian.net/browse/SCRUM-82?atlOrigin=eyJpIjoiZmVmODE4OTk3MmE3NGY1OWE3MzUwNjNmYTg2NzhlNjciLCJwIjoiaiJ9
+- **Sprint report link:** https://github.com/SE-Project-VCF/assets/blob/main/austin/Sprint-2-GitHub-Report_AustinMoser.md
+- **Backlog link:** https://uwp-se-career-fair.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog
+- **Board link:** https://uwp-se-career-fair.atlassian.net/jira/software/projects/SCRUM/boards/1
