@@ -1,6 +1,6 @@
-# Sprint 1 Code Coverage Report
+# Sprint 2 Code Coverage Report
 
-Generated: 2026-02-17
+Generated: 2026-03-03
 
 ---
 
@@ -21,19 +21,19 @@ Generated: 2026-02-17
 
 | Metric | Percentage |
 |--------|-----------|
-| Line coverage | 82.95% |
-| Branch coverage | 73.04% |
-| Function / Method coverage | 81.35% |
-| Statement coverage | 82.01% |
+| Line coverage | 75.18% |
+| Branch coverage | 66.94% |
+| Function / Method coverage | 76.06% |
+| Statement coverage | 73.95% |
 
 **Frontend** (`frontend/src/`)
 
 | Metric | Percentage |
 |--------|-----------|
-| Line coverage | 89.93% |
-| Branch coverage | 81.52% |
-| Function / Method coverage | 85.12% |
-| Statement coverage | 88.21% |
+| Line coverage | 92.03% |
+| Branch coverage | 80.53% |
+| Function / Method coverage | 84.53% |
+| Statement coverage | 88.66% |
 
 ---
 
@@ -59,13 +59,15 @@ Generated: 2026-02-17
 |--------|--------------|
 | Sprint 0 | None |
 | Sprint 1 | 82.95% |
+| Sprint 2 | 75.18% |
 
 **Frontend**
 
 | Sprint | Line Coverage |
 |--------|--------------|
-| Sprint 0 | _(update manually)_ |
+| Sprint 0 | None|
 | Sprint 1 | 89.93% |
+| Sprint 2 | 92.03% |
 
 ---
 
@@ -73,9 +75,9 @@ Generated: 2026-02-17
 
 | File | Coverage | Reason |
 |------|----------|--------|
-| `frontend/src/components/NotificationBell.tsx` | 59.57% lines / 50% branches | Low test priority this sprint — additional tests pending |
-| `frontend/src/pages/Company.tsx` | 69.91% lines / 64.91% branches | Low test priority this sprint — additional tests pending |
-| `backend/server.js` | 82.29% lines / 72.21% branches | Low test priority this sprint — additional tests pending |
+| `backend/console.js` | 44.04% lines / 51.16% branches | Low test priority this sprint — additional tests pending |
+| `backend/server.js` | 73.99% lines / 67.43% branches | Low test priority this sprint — additional tests pending |
+| `frontend/src/pages/FairBoothView.tsx` | 77.33% lines / 69.89% branches | Low test priority this sprint — additional tests pending |
 
 ---
 
