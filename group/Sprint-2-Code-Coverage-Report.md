@@ -17,67 +17,43 @@ Generated: 2026-03-03
 
 ## 2. Coverage Metrics
 
-**Backend** (`backend/server.js`, `backend/helpers.js`)
+| Coverage Tool | Coverage Report |
+|------|-------|
 
-| Metric | Percentage |
-|--------|-----------|
-| Line coverage | 75.18% |
-| Branch coverage | 66.94% |
-| Function / Method coverage | 76.06% |
-| Statement coverage | 73.95% |
-
-**Frontend** (`frontend/src/`)
-
-| Metric | Percentage |
-|--------|-----------|
-| Line coverage | 92.03% |
-| Branch coverage | 80.53% |
-| Function / Method coverage | 84.53% |
-| Statement coverage | 88.66% |
+| Sonar Qube | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-2-sonarqube-report.pdf
+| Trivy | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-2-trivy-report.pdf |
 
 ---
 
 ## 3. Scope of Coverage
 
 **Included:**
-- `backend/server.js` — core Express routes and business logic
-- `backend/helpers.js` — utility/helper functions
-- `frontend/src/` — React components, pages, hooks, contexts, utils
+- Entire project repository including both frontend and backend source code
+- JavaScript / TypeScript application files
+- Dependency files such as package-lock.json
+- Security and secret scans on project files including backend/privateKey.json
+- Code quality analysis including maintainability, reliability, and security metrics
 
 **Excluded:**
-- `backend/firebase.js` — Firebase SDK initialization; mocked in all tests
-- `frontend/src/test/` — test setup files
-- Third-party libraries in `node_modules/`
+- No files or directories were intentionally excluded from the scan
+- External libraries inside node_modules were not directly analyzed as source code (only dependency vulnerabilities were checked)
+
 
 ---
 
 ## 4. Coverage Trend
 
-**Backend**
-
 | Sprint | Line Coverage |
 |--------|--------------|
 | Sprint 0 | None |
 | Sprint 1 | 82.95% |
-| Sprint 2 | 75.18% |
-
-**Frontend**
-
-| Sprint | Line Coverage |
-|--------|--------------|
-| Sprint 0 | None|
-| Sprint 1 | 89.93% |
-| Sprint 2 | 92.03% |
+| Sprint 2 | 70.2% |
 
 ---
 
 ## 5. Weak Areas
 
-| File | Coverage | Reason |
-|------|----------|--------|
-| `backend/console.js` | 44.04% lines / 51.16% branches | Low test priority this sprint — additional tests pending |
-| `backend/server.js` | 73.99% lines / 67.43% branches | Low test priority this sprint — additional tests pending |
-| `frontend/src/pages/FairBoothView.tsx` | 77.33% lines / 69.89% branches | Low test priority this sprint — additional tests pending |
+ The most problematic area identified in this sprint was maintainability and code quality, as SonarQube reported a high number of code smells and the quality gate failed. The Trivy scan also detected a high severity dependency vulnerability and exposed secrets in the repository, indicating security concerns. In the next sprint, we plan to refactor problematic code, improve test coverage, and remove sensitive keys from the repository to reduce vulnerabilities and improve the overall quality gate results.
 
 ---
 
