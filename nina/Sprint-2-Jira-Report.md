@@ -15,9 +15,7 @@
 
 | Type  | To Do | In Progress | Done |
 |-------|-------|------------|------|
-| Story |       |            |      |
-| Task  |       |            |      |
-| Bug   |       |            |      |
+| Story |    30   |     0       |   11   |
 
 ---
 
@@ -46,9 +44,9 @@
 
 _Check only the steps followed during the sprint._
 
-- ☐ Issues moved through workflow states (To Do → In Progress → Done)  
-- ☐ Issues closed only after acceptance criteria met  
-- ☐ Sprint completed/closed in Jira  
+- [x] Issues moved through workflow states (To Do → In Progress → Done)  
+- [x] Issues closed only after acceptance criteria met  
+- [x] Sprint completed/closed in Jira  
 
 ---
 
@@ -58,10 +56,10 @@ _Check only the steps followed during the sprint._
 - 
 
 **Scope changes**
-- 
+- added profile fix that was needed in order for Kevin to keep working on his project
 
 **Why work spilled over (if any)**
-- 
+- n/a
 
 ---
 
