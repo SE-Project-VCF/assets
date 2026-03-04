@@ -18,7 +18,7 @@ Generated: 2026-03-03
 ## 2. Coverage Metrics
 
 | Coverage Tool | Coverage Report |
-|------|-------|
+|---------------|-----------------|
 
 | Sonar Qube | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-2-sonarqube-report.pdf
 | Trivy | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-2-trivy-report.pdf |
