@@ -23,8 +23,8 @@ https://github.com/SE-Project-VCF/virtual-career-fair
 
 ## Commit Activity
 
-- **Total commits:** 0
-- **Date range:**  – 
+- **Total commits:** 5
+- **Date range:**  – 2026-02-17 to 2026-03-03_
 
 ---
 
