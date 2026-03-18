@@ -19,9 +19,9 @@ Generated: 2026-03-03
 
 | Coverage Tool | Coverage Report |
 |---------------|-----------------|
-| SonarQube - NewCode | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-2-sonarqube-report.pdf |
-| SonarQube - Overall | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-2-sonarqube-report.pdf |
-| Trivy - Overall | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-2-trivy-report.pdf |
+| SonarQube - NewCode | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-3-sonarqube-report1.pdf |
+| SonarQube - Overall | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-3-sonarqube-report2.pdf |
+| Trivy - Overall | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-3-trivy-report.pdf |
 
 ---
 
@@ -48,19 +48,19 @@ Generated: 2026-03-03
 | Sprint 0 | None |
 | Sprint 1 | 82.95% |
 | Sprint 2 | 70.2% |
+| Sprint 3 | 83.% |
 
 ---
 
 ## 5. Weak Areas
 
- The most problematic area identified in this sprint was maintainability and code quality, as SonarQube reported a high number of code smells and the quality gate failed. The Trivy scan also detected a high severity dependency vulnerability and exposed secrets in the repository, indicating security concerns. In the next sprint, we plan to refactor problematic code, improve test coverage, and remove sensitive keys from the repository to reduce vulnerabilities and improve the overall quality gate results.
+Overall, the team faced very few weak areas this sprint. The main challenge occurred near the end, when a merged branch was inadvertently canceled and some intended changes were not integrated before the demo. Although this affected the demo, the issue was quickly identified and resolved immediately afterward, with code coverage scores updated accordingly. The team’s prompt response ensured that all issues were addressed and quality standards were maintained. 
 
----
+The coverage report did not pass the quality gate due to minor configuration issues with some markdown files (specifically, the `render_with_liquid` setting was not marked as false). This did not affect any source code or test results, so the reported coverage remains accurate and reliable.
 
 ## 6. Evidence
 
-- Backend HTML report: [`backend/coverage/lcov-report/index.html`](backend/coverage/lcov-report/index.html)
-- Frontend HTML report: [`frontend/coverage/index.html`](frontend/coverage/index.html)
+- SonarQube: https://sonarcloud.io/project/overview?id=SE-Project-VCF_virtual-career-fair 
 
 ---
 
