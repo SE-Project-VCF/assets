@@ -14,8 +14,8 @@ https://github.com/SE-Project-VCF/virtual-career-fair
 
 | PR Title | Link | Author | Reviewers | Merge Date |
 |----------|------|--------|-----------|------------|
-| Add front matter to fair booth registration and student fair browsing… | @austinmosercs-ux | @ninapelli | 2026-03-17 |
-| Implement booth rating system with CRUD operations and UI update| @austinmosercs-ux | @ninapelli | 2026-03-17 |
+| Add front matter to fair booth registration and student fair browsing… | https://github.com/SE-Project-VCF/virtual-career-fair/pull/46 | @austinmosercs-ux | @ninapelli | 2026-03-17 |
+| Implement booth rating system with CRUD operations and UI update|https://github.com/SE-Project-VCF/virtual-career-fair/pull/44 | @austinmosercs-ux | @ninapelli | 2026-03-17 |
 | Austin/booth rating | https://github.com/SE-Project-VCF/virtual-career-fair/pull/41 | @austinmosercs-ux | @ninapelli | 2026-03-17 |
 | Austin/concurrent fairs | https://github.com/SE-Project-VCF/virtual-career-fair/pull/34 | @austinmosercs-ux | @Relic002, @ninapelli | 2026-03-04 |
 
