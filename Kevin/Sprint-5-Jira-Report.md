@@ -19,7 +19,7 @@ Sprint Name / Number: 11
 ## Issue Breakdown by Type
 | Type | To Do | In Progress | Done |
 |------|-------|-------------|------|
-| Story | 39 | 0 | 39 |
+| Story | 3 | 0 | 3 |
 | Task | | | |
 | Bug | | | |
 ---
