@@ -1,6 +1,6 @@
-# Sprint 2 Code Coverage Report
+# Sprint 5 Code Coverage Report
 
-Generated: 2026-04-07
+Generated: 2026-04-021
 
 ---
 
@@ -19,9 +19,9 @@ Generated: 2026-04-07
 
 | Coverage Tool | Coverage Report |
 |---------------|-----------------|
-| SonarQube - NewCode | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-4-sonarqube-report1.pdf |
-| SonarQube - Overall | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-4-sonarqube-report2.pdf |
-| Trivy - Overall | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-4-trivy-report.pdf |
+| SonarQube - NewCode | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-5-sonarqube-report1.pdf |
+| SonarQube - Overall | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-5-sonarqube-report2.pdf |
+| Trivy - Overall | https://github.com/SE-Project-VCF/assets/blob/main/group/sprint-5-trivy-report.pdf |
 
 ---
 
@@ -50,15 +50,18 @@ Generated: 2026-04-07
 | Sprint 2 | 70.2% |
 | Sprint 3 | 83.0% |
 | Sprint 4 | 83.0% |
+| Sprint 5 | 86.0% |
 
 
 ---
 
 ## 5. Weak Areas
 
-The team did not experience any significant weak areas during this sprint. Coverage remained stable at 83.0%, consistent with Sprint 3 levels. All new code introduced during the sprint — including the server.js decomposition into modular route files, networking lounge feature, and calls/sessions endpoints — was accompanied by corresponding test coverage. SonarQube scans did not flag any critical maintainability, reliability, or security issues in the new code. The team maintained code quality standards throughout the sprint with no regressions in test coverage or code health metrics.
+The team did not encounter any major weak areas during this sprint. Overall coverage improved from 83.0% to 86.0%, which continues the positive trend from Sprint 4.
 
-One weak area is that duplicate code has been gradually increasing over the last few sprints in the overall codebase. As new features were added across multiple route files and components, some patterns — such as authorization checks, error handling logic, and Firestore query structures — were repeated rather than abstracted into shared utilities. This duplication is reflected in SonarQube's overall code analysis and is something the team plans to address through refactoring in future sprints to improve long-term maintainability.
+One concern was a security rating change from A to B. While this is not a critical issue, it is an area we plan to monitor and improve.
+
+In the previous report, we committed to reducing overall SonarQube issues. That work was postponed to the final sprint of the semester. One Jira task was not included in this push because it introduced a new database collection instead of refactoring the legacy collection with the rest of our data.
 
 ## 6. Evidence
 
